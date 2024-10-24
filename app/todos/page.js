@@ -63,8 +63,8 @@ export default function InboxPage() {
       {loading === false && userInbox.length === 0 && (
         <div className="flex flex-col items-center justify-center h-[60vh] my-10">
           <FaInbox className="text-[160px] text-zinc-300 dark:text-zinc-700" />
-          <h3 className="text-4xl font-black">Inbox is Empty</h3>
-          <p className="text-zinc-400 dark:text-zinc-500">
+          <h3 className="text-4xl font-black text-center">Inbox is Empty</h3>
+          <p className="text-zinc-400 dark:text-zinc-500 text-center">
             You dont have any tasks
           </p>
         </div>

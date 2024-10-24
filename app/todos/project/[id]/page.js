@@ -100,10 +100,10 @@ export default function ProjectsSection({ params }) {
       />
       {loading === false && userTodo.length === 0 && (
         <div className="flex flex-col items-center justify-center h-[60vh] my-10">
-          <h3 className="text-4xl font-black uppercase">
+          <h3 className="text-4xl font-black uppercase text-center">
             {currentPage.name} is Empty
           </h3>
-          <p className="text-zinc-400 dark:text-zinc-500">
+          <p className="text-zinc-400 dark:text-zinc-500 text-center">
             You dont have any tasks in this project
           </p>
         </div>
